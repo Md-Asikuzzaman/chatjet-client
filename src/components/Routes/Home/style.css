@@ -1,0 +1,90 @@
+.paper-space {
+    position: relative;
+    background-color: #fff !important;
+    box-shadow: 10px 10px 20px -18px rgba(0, 0, 0, 1) !important;
+    overflow: hidden !important;
+    margin-top: 3vh;
+}
+
+.container {
+    overflow: hidden !important;
+}
+
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: blueviolet;
+    padding: .5rem 1.5rem;
+    color: #fff !important;
+}
+
+.home-header .MuiSvgIcon-root {
+    color: #fff !important;
+}
+
+.home-chats {
+    height: 86vh;
+    overflow-y: scroll;
+}
+
+.home-chat {
+    display: flex;
+    align-items: center;
+    padding: .8rem 1.5rem;
+    border: 1px solid #eee;
+}
+
+.home-chat:last-child {
+    border-bottom: none;
+}
+
+.home-chat:hover {
+    background: rgba(51, 51, 51, 0.1);
+    /* cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f525.png) 6 6, auto; */
+}
+
+
+.home-chat-details {
+    margin-left: 1.5rem;
+}
+
+.home-chat-message {
+    color: blueviolet;
+}
+
+
+.home-chat-title {
+    color: #2E0F50;
+}
+
+.home-chat-last-active {
+    margin-left: auto;
+    color: #BDBDBD !important;
+}
+
+.message-links {
+    text-decoration: none !important;
+}
+
+/*
+ *  Cursor design
+ */
+
+#cursor::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#cursor::-webkit-scrollbar
+{
+	width: .8rem;
+	background-color: #F5F5F5;
+}
+
+#cursor::-webkit-scrollbar-thumb
+{
+	background-color: silver;
+	border-radius: 10px;
+}

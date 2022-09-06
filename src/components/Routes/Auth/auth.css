@@ -1,0 +1,32 @@
+.auth {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0 1.2rem;
+}
+
+.formWrapper {
+  background-color: white;
+  max-width: 440px;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem !important;
+  box-shadow: 10px 10px 20px -18px rgba(0, 0, 0, 1) !important;
+}
+
+.form-title {
+  margin-bottom: 1.5rem !important;
+}
+
+.field {
+  margin-top: 1rem !important;
+}
+
+.form-footer-text {
+  margin-top: 1.5rem !important;
+}
+
+.footer-label:hover {
+  cursor: pointer !important;
+  color: tomato !important;
+  text-decoration: underline !important;
+}
